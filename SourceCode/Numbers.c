@@ -1,5 +1,12 @@
 #include<stdio.h>
+int add(int a, int b){
+	return a+b;
+}
+
+int sub(int a, int b){
+	return a-b;
+}
 
 int main(){
-  int num = 4;
+  printf("%d\n",add(2,3));
  }
